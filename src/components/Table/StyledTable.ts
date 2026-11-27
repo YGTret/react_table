@@ -9,7 +9,6 @@ export const StyledTableContainer = styled.div`
     color: #d4e1e5;
     border-radius: 8px;
     width: 100%;
-    max-width: 1200px;
     margin: 0 auto; 
     box-sizing: border-box;
 `;
@@ -41,7 +40,7 @@ export const StyledButton = styled.button`
 
 export const StyledTableWrapper = styled.div`
     width: 100%;
-    overflow-x: hidden; 
+    overflow-x: auto; 
     overflow-y: auto;
     max-height: 60vh;
     border: 1px solid #464544;
