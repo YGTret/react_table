@@ -5,7 +5,7 @@ export const StyledTableContainer = styled.div`
     flex-direction: column;
     gap: 16px;
     padding: 20px;
-    background: #343e40;
+    background: #232526;
     color: #d4e1e5;
     border-radius: 8px;
     width: 100%;
@@ -27,7 +27,7 @@ export const StyledButton = styled.button`
     color: #d4e1e5;
     cursor: pointer;
     font-size: 14px;
-    transition: background 0.2s;
+    transition: background 0.5s;
 
     &:hover:not(:disabled) {
         background: #464544;

@@ -40,14 +40,14 @@ export const Table = () => {
                     <StyledTr>
                         <StyledTh>#</StyledTh>
                         {colsArray.map((col) => (
-                            <StyledTh key={col}>Колонка {col + 1}</StyledTh>
+                            <StyledTh key={col}>Столбец {col + 1}</StyledTh>
                         ))}
                     </StyledTr>
                     </thead>
                     <tbody>
                     {rowsArray.map((row) => (
                         <StyledTr key={row}>
-                            <StyledTd>{row + 1}</StyledTd>
+                            <StyledTd>Ряд {row + 1}</StyledTd>
                             {colsArray.map((col) => (
                                 <StyledTd key={col}>
                                     Ячейка {row + 1} - {col + 1}
